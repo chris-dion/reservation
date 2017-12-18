@@ -1,0 +1,19 @@
+{
+  "name": "reservation",
+  "version": "1.0.0",
+  "description": "This is an in class assignment  for reservation",
+  "main": "explorer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-dion/reservation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris-dion/reservation/issues"
+  },
+  "homepage": "https://github.com/chris-dion/reservation#readme"
+}
