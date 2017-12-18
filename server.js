@@ -32,13 +32,13 @@ app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname, "view.html"));
 });
 
-app.get("/add", function(req, res) {
-  res.sendFile(path.join(__dirname, "view_tables.html"));
+app.get("/make_res", function(req, res) {
+  res.sendFile(path.join(__dirname, "make_res.html"));
 });
 
 // Get all reservation
-app.get("/all", function(req, res) {
-  res.json(reservation);
+app.get("/view_tables", function(req, res) {
+  res.sendFile(path.join(__dirname, "view_tables.html"));
 });
 
 // Search for Specific Character (or all reservation) - provides JSON
