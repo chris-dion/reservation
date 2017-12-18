@@ -37,8 +37,8 @@ app.get("/make_res", function(req, res) {
 });
 
 // Get all reservation
-app.get("/view_table", function(req, res) {
-  res.sendFile(path.join(__dirname, "make_res.html"));
+app.get("/view_tables", function(req, res) {
+  res.sendFile(path.join(__dirname, "view_tables.html"));
 });
 
 // Search for Specific Character (or all reservation) - provides JSON
